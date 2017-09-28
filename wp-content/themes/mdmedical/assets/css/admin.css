@@ -1,0 +1,22 @@
+/*
+Theme Package: LightBook
+Theme URI: http://inwavethemes.com/wordpress/lightbook
+Author: inwavethemes
+Author URI: http://inwavethemes.com
+Description: This file using for backend
+*/
+
+.postbox-container .cmb-row.cmb-type-title{
+    background: #eee;
+    margin: -12px -12px;
+    padding: 10px 12px !important;
+}
+.postbox-container tr.cmb-type-title{
+    background: #eee;
+    margin: 5px -12px !important;
+    width: 110%;
+    display: inline-block;
+}
+.postbox-container tr.cmb-type-title td{
+    padding: 3px 12px 0;
+}

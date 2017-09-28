@@ -1,0 +1,499 @@
+/*
+Theme Name: MdMedical
+Theme URI: http://jmango360.com
+Author: inwavethemes
+Author URI: http://jmango360.com
+Description: Theme for MdMedical.vn
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: mdmedical
+Tags: post-formats, theme-options, flexible-header, custom-header, custom-background, custom-colors, left-sidebar, right-sidebar
+*/
+
+/*-------------------------------------------------------
+[Table of contents]
+1. Common style
+2. Panel
+        + Panel setting
+3. Layout
+4. Header
+        + Header default
+        + Header v2
+        + Header v3
+        + Header v4
+		+ Sticky header
+        + Mega menu
+        + Menu - Not Page heading
+5. Content
+        + Slider
+        + Page title
+		+ About us
+		+ Contact us
+        + Blog
+            - BLOG LISTING
+            - BLOG DETAIL
+6. Footer
+
+--------------------------------------------------------*/
+@import "assets/css/style.css";
+@import "assets/css/custom.css";
+@import "assets/css/responsive.css";
+
+/** COMMON STYLE **/
+html body{
+    color:#838383;
+}
+body{
+    font-weight:normal;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+    font-weight: 400;
+}
+p:last-child{
+    margin:0;
+}
+img{
+    max-width:100%;
+    height:auto;
+}
+ul, li{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+.post-desc ul, .post-desc li{
+    margin:0;
+    padding: 0;
+    list-style: disc;
+    list-style-position: inside;
+}
+pre{
+    background: #232323 linear-gradient(#fff 50%, #f1f1f1 50%);
+    background-size: 38px 38px;
+    border: 1px solid #e5e5e5;
+    border-radius: 0;
+    color: #838383;
+    display: block;
+    line-height: 19px;
+    margin: 5px 0;
+    overflow-x: visible;
+    overflow-y: hidden;
+    padding: 0 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 1px solid rgba(51, 51, 51, 0.1);
+    border-width: 1px 0 0 1px;
+    margin: 0 0 1.6em;
+    table-layout: fixed;
+    width: 100%;
+}
+th, td {
+    border: 1px solid rgba(51, 51, 51, 0.1);
+    padding:5px;
+    border-width: 0 1px 1px 0;
+}
+th,dt{
+    font-weight:bold;
+}
+dt{
+    font-size:120%;
+}
+.clear{
+    clear:both;
+}
+dl, dd{
+    margin-bottom:20px;
+}
+address {
+    font-style: italic;
+    margin: 0 0 15px;
+}
+a:hover, a:focus{
+    text-decoration: none;
+    color: #838383;
+}
+.post-text ul,.post-text li,
+.entry-content ul,.entry-content li{
+    list-style:inherit;
+}
+.page-links{
+    margin:5px 0;
+}
+.page-links > a,.page-links > span{
+    padding:3px 6px;
+    border: 1px solid rgba(51, 51, 51, 0.1);
+}
+.post-text ul,.entry-content ul{
+    margin-left:15px;
+}
+.grey{
+    color:#c4c4c4;
+}
+.light-grey{
+    color:#b9b9b9;
+}
+
+input[type="button"], input[type="submit"] {
+    border: medium none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-right: 5px;
+    outline: medium none;
+    padding: 3px 25px;
+    color:#fff;
+}
+.right-text{
+    text-align: right;
+}
+.left-text{
+    text-align: left;
+}
+.white-text,.white-text-force *{
+    color: #fff!important;
+}
+.float-right {
+    float: right;
+}
+.float-left {
+    float: left;
+}
+
+/** =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 10px auto 10px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 0 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption .wp-caption-text {
+    font-size: 12px;
+    line-height: 17px;
+    margin: 0;
+    font-style:italic;
+    background:#f1f1f1;
+    text-align:left;
+    padding: 12px 20px;
+    width:calc(100% - 3px);
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+.post-text ol{
+    padding-left:15px;
+    line-height:36px;
+}
+.post-text ol ol{
+    padding-left:30px;
+}
+.screen-reader-text:focus {
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000; /* Above WP toolbar. */
+}
+.gallery-caption {
+    font-weight: normal;
+}
+.bypostauthor {
+    font-weight: normal;
+}
+.sticky{
+    font-weight: normal;
+}
+/*.sticky .post-icon{
+    background: #f98b2f!important;
+}*/
+.sticky .post-icon i::before{
+    content: '\f08d'!important;
+}
+
+.iw-parallax,.iw-parallax-overlay{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+/* Panel Setting */
+.panel-tools{
+    position:fixed;
+    left: -240px;
+    top:80px;
+    z-index:9999;
+    background:#fff;
+    box-shadow:1px 1px 2px rgba(0,0,0,0.1);
+    color:#848484;
+    font-size:11px;
+}
+.panel-tools .panel-content{
+    padding:16px;
+    width:240px;
+    /*display:none;*/
+    /*margin-left:-240px;*/
+    border: 1px solid #dddddd !important;
+}
+.panel-tools button,.panel-tools span.button-command{
+    border:none;
+    color:#848484;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #dddddd;
+    position: relative;
+}
+.panel-tools span.button-command{
+    padding:0 8px;
+}
+.panel-tools a:active > span.button-command{
+    top:2px;
+}
+.panel-tools h3{
+    font-size:13px;
+    padding-bottom:12px;
+    margin-top:12px;
+    text-transform:uppercase;
+}
+.panel-tools .title{
+    border-bottom:1px solid #d8d8d8;
+}
+.panel-tools .panel-button{
+    right:-45px;
+    position:absolute;
+    text-align:center;
+    top:-5px;
+    width:45px;
+    height:45px;
+    line-height:45px;
+    font-size:24px;
+    background: #f5f5f5;
+    border: 1px solid #dddddd;
+    border-left:0;
+    border-radius: 0 2px 2px 0;
+}
+.off-canvas-enabled body.rtl .panel-tools{
+    left: 0!important;
+    right: auto!important;
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -o-transform: translateX(0px);
+    transform: translateX(0px);
+}
+.panel-tools .panel-button i{
+    -webkit-transform:rotate(0deg);
+    transform:rotate(0deg);
+}
+.panel-tools .panel-button:hover i{
+    -webkit-animation: fa-spin 2s infinite linear;
+    animation: fa-spin 2s infinite linear;
+}
+.panel-tools .panel-button.active i{
+    -webkit-animation: fa-spin 2s infinite linear;
+    animation: fa-spin 2s infinite linear;
+}
+.panel-tools .layout-setting h3{
+    margin-top:5px;
+}
+.panel-tools .button-command,.reset-button button{
+    background:#f6f6f6;
+    width:100px;
+    margin-right:0px;
+    line-height:28px;
+    border:1px solid #dedede;
+    font-size:11px;
+    color:inherit;
+    text-transform:uppercase;
+}
+.panel-tools .rtl-setting{
+    margin-top: 5px;
+}
+.panel-tools .rtl-setting .button-command{
+    width:auto;
+}
+.panel-tools .button-command.active,.reset-button button{
+    color:#fff;
+}
+.panel-tools  .color-setting button{
+    width:27px;
+    height:27px;
+    margin-right:5px;
+    border:2px solid #fff;
+}
+.panel-tools  .color-setting button.active{
+    border:2px solid #d7d7d7;
+}
+.panel-tools  .color-setting button:last-child{
+    margin-right:0;
+}
+.panel-tools  .reset-button{
+    margin-top:0px;
+    padding-top:10px;
+}
+.panel-tools .overlay-setting{
+    position:relative;
+}
+.panel-tools .overlay-setting.disabled:after{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    content:'';
+    background:#fff;
+    z-index:1;
+    opacity:0.7;
+}
+
+@media (max-width: 767px) {
+    .vc_row .container {
+        padding-left:30px;
+        padding-right:30px;
+    }
+}
+/*Reset bootstrap */
+body .vc_col-has-fill > .vc_column-inner,
+body .vc_row-has-fill + .vc_row-full-width + .vc_row > .vc_column_container > .vc_column-inner,
+body .vc_row-has-fill + .vc_row > .vc_column_container > .vc_column-inner,
+body .vc_row-has-fill + .vc_vc_row > .vc_row > .vc_vc_column > .vc_column_container > .vc_column-inner,
+body .vc_row-has-fill + .vc_vc_row_inner > .vc_row > .vc_vc_column_inner > .vc_column_container > .vc_column-inner,
+body .vc_row-has-fill > .vc_column_container > .vc_column-inner,
+body .vc_row-has-fill > .vc_row > .vc_vc_column > .vc_column_container > .vc_column-inner,
+body .vc_row-has-fill > .vc_vc_column_inner > .vc_column_container > .vc_column-inner{
+    padding-top: 0;
+}
+a.vc_btn3.vc_btn3-color-grey.vc_btn3-style-flat{
+    background: #f7f7f7;
+    color: #232323;
+}
+a.vc_btn3.vc_btn3-shape-rounded{
+    border-radius: 25px;
+}
+a.vc_btn3.vc_btn3-size-sm{
+    padding: 10px 27px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.se-pre-con {
+    height: 100%;
+    left: 0;
+    overflow: visible;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999999;
+    background: url(assets/images/Preloader_3.gif) center no-repeat #fff;
+}
+/** END COMMON STYLE **/
+
+/** LAYOUT ***/
+.body-boxed .wrapper {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 1);
+    margin: auto;
+    max-width: 1200px;
+    overflow: hidden;
+    position: relative;
+}
+.wrapper{
+    overflow: hidden;
+    background:#fff;
+    position: relative;
+}
+
+/** END LAYOUT ***/
+
+
+
+
+
+
+

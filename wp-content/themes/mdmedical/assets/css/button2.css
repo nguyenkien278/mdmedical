@@ -1,0 +1,200 @@
+.iw-button .rounded {
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+.iw-button a.bg-white {
+    background-color: #ffffff;
+}
+.iw-button a.bg-grey {
+    background-color: #e6e6e6;
+}
+.iw-button a.bg-none {
+    background: none;
+}
+.iw-button a.color-white {
+    color: #ffffff;
+}
+.iw-button a.color-grey {
+    color: #e6e6e6;
+}
+.iw-button a.button-text {
+    border: 2px solid;
+    padding: 10px 25px;
+}
+.iw-button a.border-white {
+    border-color: #ffffff;
+}
+.iw-button a.border-grey {
+    border-color: #e6e6e6;
+}
+.iw-button.button2 a {
+    border: none;
+}
+.iw-button.button-normal a {
+    font-size: 14px;
+}
+.iw-button.button-normal a {
+    font-size: 14px;
+}
+.iw-button.button-small a {
+    font-size: 12px;
+}
+.iw-button.button-small a {
+    font-size: 18px;
+}
+.iw-button.button3 {
+    font-size: 15px;
+}
+.iw-button.button3 .iw-button-text {
+    display: inline-block;
+    margin-right: 15px;
+    float: left;
+}
+.iw-button.button3 a.button-text {
+    border: none;
+    padding: 29px 9px;
+    display: inline-block;
+}
+.iw-button.button3 a span {
+    border: 1px #ffffff solid;
+    padding: 20px 25px;
+}
+.iw-button .iw-button-side-link {
+    font-family: Merriweather, Georgia, seriferri;
+    float: left;
+    margin-top: 27px;
+}
+.iw-button .iw-button-side-link .iw-button-separator {
+    font-style: italic;
+    margin-right: 10px;
+}
+.iw-button .iw-button-side-link .side-link {
+    font-weight: bold;
+    font-style: italic;
+    color: #838383;
+}
+.iw-button .iw-button-side-link .side-link i {
+    margin-left: 5px;
+}
+
+
+/* button 2 */
+.iw-button{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.iw-button-style-default{
+}
+.iw-button-style-outline{
+    border-width: 2px;
+    border-style: solid;
+}
+.iw-button-shape-square{
+    border-radius: 0;
+}
+.iw-button-shape-rounded{
+    border-radius: 20px;
+}
+.iw-button-container .iw-button-style {
+    display: inline-block;
+}
+.iw-button-container .iw-button-style a.iw-button {
+    display: inline-block;
+    padding: 15px 25px;
+    line-height: 1;
+}
+.iw-button-style .iw-button-size-small {
+    font-size: 14px;
+    left: auto;
+    right: 0;
+}
+.iw-button-style .iw-button-size-normal {
+    font-size: 15px;
+}
+.iw-button-style .iw-button-size-large {
+    font-size: 18px;
+}
+.iw-button-style.outline .iw-button-color-white {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+.iw-button-style.outline .iw-button-color-white {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+.iw-button-style.outline .iw-button-color-grey {
+    border-color: #e6e6e6;
+    color: #e6e6e6;
+}
+.iw-button-style-default.iw-button-color-theme {
+    color: #ffffff;
+}
+.iw-button-style-default.iw-button-color-theme:hover{
+    /*background-color: #ff0000;*/
+    /*color: #fff;*/
+}
+.iw-button-style-default.iw-button-color-white{
+    background-color: #ffffff;
+    color: #e6e6e6;
+}
+.iw-button-style-default.iw-button-color-grey{
+    background-color: #e6e6e6;
+    color: #8b8a8a;
+}
+.iw-button-style-default.iw-button-color-grey:hover{
+    /*background-color: #ccc;*/
+    /*color: #fff;*/
+}
+
+.iw-button-style-outline.iw-button-color-theme{
+    background-color: transparent;
+}
+.iw-button-style-outline.iw-button-color-theme:hover{
+    /*background-color: #ff0000;*/
+    /*color: #fff;*/
+}
+.iw-button-style.inline a.iw-button {
+    color: #ffffff;
+    position: relative;
+    padding: 25px 30px;
+}
+.iw-button-style.inline .iw-button:after {
+    position: absolute;
+    border: 1px #ffffff solid;
+    left: 10px;
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    display: block;
+    content: "";
+}
+.iw-button-style.inline .iw-button-shape-rounded.iw-button:after{
+    border-radius: 20px;
+}
+.iw-button-style .iw-button-separator, .iw-button-style .side-link {
+    font-family: Merriweather, Georgia, serif;
+    color: #838383;
+    text-transform: uppercase;
+}
+.iw-button-style .iw-button-separator {
+    margin:0 10px 0 15px;
+    font-style: italic;
+}
+.iw-button-style .side-link {
+    margin-right: 5px;
+    padding: 0;
+    font-style: italic;
+    font-weight: 700;
+}
+.iw-button-style .side-link i {
+    margin-left: 5px;
+}
+a.iw-button i, button.iw-button i {
+    margin-left: 15px;
+}
+.rtl a.iw-button i, button.iw-button i {
+    margin: 0 15px 0 0;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}

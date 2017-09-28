@@ -1,0 +1,112 @@
+
+.signup-user-orchard{
+	background:url("http://jmango360.me/wp-content/uploads/2017/08/work-in-progress-web-design-sketches-picjumbo-com-e1504702354968.jpg") center center no-repeat scroll;
+	background-size:cover;
+	padding:45px 0 60px 0;
+}
+.signup-user-orchard .title-block{
+	text-align:center;
+	color: #fff;
+}
+.signup-user-orchard .title-block h3.title{
+    font-size: 36px;
+    font-weight: 600;
+	margin:0 0 22px 0;
+}
+.signup-user-orchard .title-block{
+	font-size:16px;
+	margin-bottom:75px;
+}
+.signup-user-orchard .row{
+	margin:0 -8px;
+}
+.signup-user-orchard .row div[class^="col-"]{
+	padding:0 8px;
+}
+.signup-user-orchard .form-control{
+	height:39px;
+	line-height:37px;
+	border:1px solid #e3e3e3;
+	background:#fafafa;
+	font-size:13px;
+	padding:0 15px;
+	border-radius:20px;
+}
+.signup-user-orchard .form-field{
+	margin-bottom:30px;
+	position:relative;
+}
+.signup-user-orchard #jmango360-signup-form{
+	max-width:600px;
+	margin:0 auto;
+}
+.signup-user-orchard .formError{
+	left:auto!important;
+	right:0!important;
+	top:-28px!important;
+	margin:0!important;
+	position:absolute!important;
+}
+
+.signup-user-orchard .formError .formErrorContent{
+	border-radius:50px;
+}
+.signup-user-orchard .form-field.form-submit{
+	text-align:center;
+}
+.signup-user-orchard .form-field .btn-submit{
+	height:39px;
+	line-height:37px;
+	border:none;
+	background:#4fbc86;
+	font-size:14px;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#fff;
+	padding:0 20px;
+	border-radius:50px;
+	transition:all ease 0.4s;
+}
+.signup-user-orchard .form-field .btn-submit:hover{
+	background:#2cad6e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

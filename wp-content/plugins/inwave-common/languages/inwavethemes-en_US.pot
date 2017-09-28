@@ -1,0 +1,1403 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Visual Composer Addons\n"
+"POT-Creation-Date: 2016-12-09 14:41+0700\n"
+"PO-Revision-Date: 2016-02-23 17:18+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/metaboxes/helpers/cmb_Meta_Box_ajax.php:47
+msgid "Please Try Again"
+msgstr ""
+
+#: inc/metaboxes/helpers/cmb_Meta_Box_ajax.php:131
+msgid "Remove Embed"
+msgstr ""
+
+#: inc/metaboxes/helpers/cmb_Meta_Box_ajax.php:134
+#, php-format
+msgid "No oEmbed Results Found for %s. View more info at"
+msgstr ""
+
+#: inc/metaboxes/helpers/cmb_Meta_Box_field.php:459
+msgid "Add Group"
+msgstr ""
+
+#: inc/metaboxes/helpers/cmb_Meta_Box_field.php:460
+msgid "Remove Group"
+msgstr ""
+
+#: inc/metaboxes/helpers/cmb_Meta_Box_types.php:250
+msgid "Add Row"
+msgstr ""
+
+#: inc/metaboxes/helpers/cmb_Meta_Box_types.php:306
+#: inc/metaboxes/helpers/cmb_Meta_Box_types.php:706
+#: inc/metaboxes/helpers/cmb_Meta_Box_types.php:768
+msgid "Remove"
+msgstr ""
+
+#: inc/metaboxes/helpers/cmb_Meta_Box_types.php:601
+#: inc/metaboxes/helpers/cmb_Meta_Box_types.php:635
+msgid "No terms"
+msgstr ""
+
+#: inc/metaboxes/helpers/cmb_Meta_Box_types.php:674
+#: inc/metaboxes/helpers/cmb_Meta_Box_types.php:728
+msgid "Add or Upload File"
+msgstr ""
+
+#: inc/metaboxes/helpers/cmb_Meta_Box_types.php:695
+#: inc/metaboxes/helpers/cmb_Meta_Box_types.php:760
+msgid "Remove Image"
+msgstr ""
+
+#: inc/metaboxes/helpers/cmb_Meta_Box_types.php:706
+#: inc/metaboxes/helpers/cmb_Meta_Box_types.php:768
+msgid "File:"
+msgstr ""
+
+#: inc/metaboxes/helpers/cmb_Meta_Box_types.php:706
+#: inc/metaboxes/helpers/cmb_Meta_Box_types.php:768
+msgid "Download"
+msgstr ""
+
+#: inc/metaboxes/init.php:258
+msgid "Clear"
+msgstr ""
+
+#: inc/metaboxes/init.php:259
+msgid "Default"
+msgstr ""
+
+#: inc/metaboxes/init.php:260
+msgid "Select Color"
+msgstr ""
+
+#: inc/metaboxes/init.php:261
+msgid "Current Color"
+msgstr ""
+
+#: inc/metaboxes/init.php:288
+msgid "Select / Deselect All"
+msgstr ""
+
+#: inc/metaboxes/init.php:1179
+msgid "Save"
+msgstr ""
+
+#: inc/parsers.php:42 inc/parsers.php:72 inc/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: inc/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: inc/parsers.php:84 inc/parsers.php:89 inc/parsers.php:306
+#: inc/parsers.php:495
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: inc/shortcode.class.php:42
+msgid "Not exists"
+msgstr ""
+
+#: inc/shortcode.class.php:259
+msgid "Insert IW Shortcode"
+msgstr ""
+
+#: inc/shortcode.class.php:264
+msgid "List Shortcode"
+msgstr ""
+
+#: inc/shortcode.class.php:266
+msgid "Shortcode filter"
+msgstr ""
+
+#: inc/shortcode.class.php:302
+msgid "Shortcode settings"
+msgstr ""
+
+#: inc/shortcode.class.php:311
+msgid "Insert Shortcode"
+msgstr ""
+
+#: inc/shortcode.class.php:312
+msgid "Cancel"
+msgstr ""
+
+#: inc/shortcode.class.php:313
+msgid "Preview"
+msgstr ""
+
+#: inc/shortcode.class.php:503
+msgid "Click to select new or search..."
+msgstr ""
+
+#: inc/shortcode.class.php:682
+msgid "Add more user's skill"
+msgstr ""
+
+#: inc/shortcode.class.php:733
+msgid "Select Event"
+msgstr ""
+
+#: inc/shortcode.class.php:754
+msgid "All Categories"
+msgstr ""
+
+#: inc/wordpress-importer.php:134 inc/wordpress-importer.php:203
+#: inc/wordpress-importer.php:264 inc/wordpress-importer.php:268
+#: inc/wordpress-importer.php:277
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: inc/wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: inc/wordpress-importer.php:248
+msgid "All done."
+msgstr ""
+
+#: inc/wordpress-importer.php:248
+msgid "Have fun!"
+msgstr ""
+
+#: inc/wordpress-importer.php:249
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: inc/wordpress-importer.php:269
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: inc/wordpress-importer.php:285
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: inc/wordpress-importer.php:310
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: inc/wordpress-importer.php:336
+msgid "Assign Authors"
+msgstr ""
+
+#: inc/wordpress-importer.php:337
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: inc/wordpress-importer.php:339
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: inc/wordpress-importer.php:349
+msgid "Import Attachments"
+msgstr ""
+
+#: inc/wordpress-importer.php:352
+msgid "Download and import file attachments"
+msgstr ""
+
+#: inc/wordpress-importer.php:356
+msgid "Submit"
+msgstr ""
+
+#: inc/wordpress-importer.php:369
+msgid "Import author:"
+msgstr ""
+
+#: inc/wordpress-importer.php:380
+msgid "or create new user with login name:"
+msgstr ""
+
+#: inc/wordpress-importer.php:383
+msgid "as a new user:"
+msgstr ""
+
+#: inc/wordpress-importer.php:391
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: inc/wordpress-importer.php:393
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: inc/wordpress-importer.php:394
+msgid "- Select -"
+msgstr ""
+
+#: inc/wordpress-importer.php:444
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: inc/wordpress-importer.php:495
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: inc/wordpress-importer.php:539
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: inc/wordpress-importer.php:588 inc/wordpress-importer.php:811
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: inc/wordpress-importer.php:678
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: inc/wordpress-importer.php:715
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: inc/wordpress-importer.php:777
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: inc/wordpress-importer.php:951
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: inc/wordpress-importer.php:958
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: inc/wordpress-importer.php:1063
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: inc/wordpress-importer.php:1078
+msgid "Invalid file type"
+msgstr ""
+
+#: inc/wordpress-importer.php:1126
+msgid "Remote server did not respond"
+msgstr ""
+
+#: inc/wordpress-importer.php:1133
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: inc/wordpress-importer.php:1141
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: inc/wordpress-importer.php:1147
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: inc/wordpress-importer.php:1154
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: inc/wordpress-importer.php:1253
+msgid "Import WordPress"
+msgstr ""
+
+#: inc/wordpress-importer.php:1260
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: inc/wordpress-importer.php:1275
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: inc/wordpress-importer.php:1276
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: shortcodes/button.php:13
+msgid "Button"
+msgstr ""
+
+#: shortcodes/button.php:14
+msgid "Insert a button with some styles"
+msgstr ""
+
+#: shortcodes/button.php:30
+msgid "Button Text"
+msgstr ""
+
+#: shortcodes/button.php:37
+msgid "Font Weight"
+msgstr ""
+
+#: shortcodes/button.php:38
+msgid "Font Weight Button Text"
+msgstr ""
+
+#: shortcodes/button.php:51
+msgid "Button Link"
+msgstr ""
+
+#: shortcodes/button.php:79
+msgid "Background Opacity"
+msgstr ""
+
+#: shortcodes/button.php:201 shortcodes/item_info.php:102
+msgid "Text align"
+msgstr ""
+
+#: shortcodes/button.php:212 shortcodes/contact.php:118
+#: shortcodes/funfact.php:26 shortcodes/heading.php:102
+#: shortcodes/intravel_destination.php:55
+#: shortcodes/intravel_discout_tours.php:89
+#: shortcodes/intravel_popular_tours.php:32
+#: shortcodes/intravel_search_tour_form.php:57
+#: shortcodes/intravel_search_tour_slider.php:49
+#: shortcodes/intravel_spotlight_destination.php:106
+#: shortcodes/intravel_tour.php:61 shortcodes/intravel_tours.php:157
+#: shortcodes/map.php:107 shortcodes/posts.php:161
+#: shortcodes/testimonials.php:102 shortcodes/testimonials.php:222
+msgid "Extra Class"
+msgstr ""
+
+#: shortcodes/button.php:214 shortcodes/contact.php:120
+#: shortcodes/heading.php:104 shortcodes/intravel_search_tour_slider.php:51
+#: shortcodes/map.php:109 shortcodes/posts.php:163
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: shortcodes/button.php:218 shortcodes/heading.php:321
+#: shortcodes/intravel_tour.php:54 shortcodes/item_info.php:113
+#: shortcodes/testimonials.php:109
+msgid "CSS box"
+msgstr ""
+
+#: shortcodes/button.php:221 shortcodes/heading.php:324
+#: shortcodes/intravel_tour.php:57 shortcodes/item_info.php:115
+#: shortcodes/testimonials.php:111
+msgid "Design Options"
+msgstr ""
+
+#: shortcodes/contact.php:36
+msgid "Contact Form"
+msgstr ""
+
+#: shortcodes/contact.php:37
+msgid "Show contact form"
+msgstr ""
+
+#: shortcodes/contact.php:53 shortcodes/heading.php:38
+#: shortcodes/heading.php:45 shortcodes/heading.php:52
+#: shortcodes/intravel_destinations.php:33
+#: shortcodes/intravel_destinations.php:40
+#: shortcodes/intravel_discout_tours.php:36
+#: shortcodes/intravel_discout_tours.php:43
+#: shortcodes/intravel_search_tour_form.php:34
+#: shortcodes/intravel_search_tour_slider.php:35
+#: shortcodes/intravel_search_tour_slider.php:42
+#: shortcodes/intravel_spotlight_destination.php:58
+#: shortcodes/intravel_spotlight_destination.php:65
+#: shortcodes/intravel_tours.php:52 shortcodes/intravel_tours.php:59
+#: shortcodes/intravel_tours.php:66 shortcodes/intravel_tours.php:73
+#: shortcodes/item_info.php:33 shortcodes/item_info.php:40
+#: shortcodes/item_info.php:47 shortcodes/map.php:54 shortcodes/posts.php:53
+#: shortcodes/posts.php:60 shortcodes/posts.php:67
+#: shortcodes/testimonials.php:64 shortcodes/testimonials.php:71
+#: shortcodes/testimonials.php:142 shortcodes/testimonials.php:149
+#: shortcodes/testimonials.php:156
+msgid "Preview Style"
+msgstr ""
+
+#: shortcodes/contact.php:60
+msgid "Receiver Email"
+msgstr ""
+
+#: shortcodes/contact.php:63
+msgid "If not specified, Admin E-mail Address in General setting will be used"
+msgstr ""
+
+#: shortcodes/contact.php:68
+msgid "Title contact form"
+msgstr ""
+
+#: shortcodes/contact.php:74
+msgid "Head Office"
+msgstr ""
+
+#: shortcodes/contact.php:77 shortcodes/contact.php:84
+#: shortcodes/contact.php:91 shortcodes/contact.php:98
+msgid "You can add '///' to insert line break tag (br)"
+msgstr ""
+
+#: shortcodes/contact.php:81
+msgid "Phone Numbers"
+msgstr ""
+
+#: shortcodes/contact.php:88
+msgid "Email Address"
+msgstr ""
+
+#: shortcodes/contact.php:95
+msgid "Get Support Services"
+msgstr ""
+
+#: shortcodes/contact.php:102
+msgid "Button text"
+msgstr ""
+
+#: shortcodes/contact.php:173
+msgid "First name"
+msgstr ""
+
+#: shortcodes/contact.php:181 shortcodes/contact.php:232
+msgid "Email address"
+msgstr ""
+
+#: shortcodes/contact.php:189
+msgid "Your website"
+msgstr ""
+
+#: shortcodes/contact.php:197
+msgid "Write message"
+msgstr ""
+
+#: shortcodes/contact.php:205
+msgid "SEND MESSAGE"
+msgstr ""
+
+#: shortcodes/contact.php:206
+msgid "is require information"
+msgstr ""
+
+#: shortcodes/contact.php:218
+msgid "Head office"
+msgstr ""
+
+#: shortcodes/contact.php:225
+msgid "Phone numbers"
+msgstr ""
+
+#: shortcodes/contact.php:239
+msgid "Get support services"
+msgstr ""
+
+#: shortcodes/contact.php:269
+msgid "Email from Contact Form"
+msgstr ""
+
+#: shortcodes/contact.php:272
+msgid "Hi Admin,"
+msgstr ""
+
+#: shortcodes/contact.php:272
+msgid "This email was sent from contact form"
+msgstr ""
+
+#: shortcodes/contact.php:275 shortcodes/intravel_destinations.php:398
+#: shortcodes/member.php:23 shortcodes/testimonials.php:164
+msgid "Name"
+msgstr ""
+
+#: shortcodes/contact.php:278
+msgid "Email"
+msgstr ""
+
+#: shortcodes/contact.php:281
+msgid "Mobile"
+msgstr ""
+
+#: shortcodes/contact.php:284
+msgid "Website"
+msgstr ""
+
+#: shortcodes/contact.php:287
+msgid "Message"
+msgstr ""
+
+#: shortcodes/contact.php:297
+msgid "Your message was sent, we will contact you soon"
+msgstr ""
+
+#: shortcodes/contact.php:299
+msgid "Can't send message, please try again"
+msgstr ""
+
+#: shortcodes/funfact.php:14
+msgid "Funfact List"
+msgstr ""
+
+#: shortcodes/funfact.php:19
+msgid "Add a set of list info and give some custom style."
+msgstr ""
+
+#: shortcodes/funfact.php:29 shortcodes/intravel_destination.php:58
+#: shortcodes/intravel_discout_tours.php:92
+#: shortcodes/intravel_popular_tours.php:35
+#: shortcodes/intravel_search_tour_form.php:60
+#: shortcodes/intravel_spotlight_destination.php:109
+#: shortcodes/intravel_tour.php:64 shortcodes/intravel_tours.php:160
+#: shortcodes/testimonials.php:105 shortcodes/testimonials.php:225
+msgid "Write your own CSS and mention the class name here."
+msgstr ""
+
+#: shortcodes/funfact.php:37
+msgid "Funfact Item"
+msgstr ""
+
+#: shortcodes/funfact.php:39
+msgid "Insert a funfact style"
+msgstr ""
+
+#: shortcodes/funfact.php:57
+msgid "Number"
+msgstr ""
+
+#: shortcodes/funfact.php:60
+msgid "Add number funfact on for element"
+msgstr ""
+
+#: shortcodes/funfact.php:65
+msgid "title"
+msgstr ""
+
+#: shortcodes/funfact.php:68
+msgid "Add title Funfacr for element"
+msgstr ""
+
+#: shortcodes/funfact.php:72 shortcodes/heading.php:74
+#: shortcodes/intravel_search_tour_form.php:50 shortcodes/item_info.php:95
+#: shortcodes/member.php:36 shortcodes/testimonials.php:95
+msgid "Description"
+msgstr ""
+
+#: shortcodes/funfact.php:78 shortcodes/funfact.php:80 shortcodes/member.php:42
+msgid "Image"
+msgstr ""
+
+#: shortcodes/heading.php:17
+msgid "Heading"
+msgstr ""
+
+#: shortcodes/heading.php:18
+msgid "Add a heading & some information"
+msgstr ""
+
+#: shortcodes/heading.php:60 shortcodes/intravel_spotlight_destination.php:72
+#: shortcodes/item_info.php:55 shortcodes/testimonials.php:79
+msgid "Title"
+msgstr ""
+
+#: shortcodes/heading.php:61 shortcodes/intravel_search_tour_form.php:43
+#: shortcodes/testimonials.php:80
+msgid ""
+"You can add |TEXT_EXAMPLE| to specify strong words, <br />{TEXT_EXAMPLE} to "
+"specify colorful words, <br />'///' to insert line break tag (br)"
+msgstr ""
+
+#: shortcodes/heading.php:68 shortcodes/item_info.php:62
+#: shortcodes/testimonials.php:88
+msgid "Sub Title"
+msgstr ""
+
+#: shortcodes/heading.php:84
+msgid "Width Heading"
+msgstr ""
+
+#: shortcodes/heading.php:86
+msgid "Custom width heading"
+msgstr ""
+
+#: shortcodes/heading.php:110
+msgid "Title Color"
+msgstr ""
+
+#: shortcodes/heading.php:113
+msgid "Color for Title"
+msgstr ""
+
+#: shortcodes/heading.php:119
+msgid "Title Font Size"
+msgstr ""
+
+#: shortcodes/heading.php:121 shortcodes/heading.php:197
+msgid "Custom font-size title. Example: 30px"
+msgstr ""
+
+#: shortcodes/heading.php:126
+msgid "Title Font Family"
+msgstr ""
+
+#: shortcodes/heading.php:129
+msgid "Font family of Title"
+msgstr ""
+
+#: shortcodes/heading.php:135 shortcodes/heading.php:211
+#: shortcodes/heading.php:279
+msgid "Load Font Family from google"
+msgstr ""
+
+#: shortcodes/heading.php:138 shortcodes/heading.php:214
+#: shortcodes/heading.php:282
+msgid "No"
+msgstr ""
+
+#: shortcodes/heading.php:139 shortcodes/heading.php:215
+#: shortcodes/heading.php:283
+msgid "Yes"
+msgstr ""
+
+#: shortcodes/heading.php:145
+msgid "Title Font Weight"
+msgstr ""
+
+#: shortcodes/heading.php:147
+msgid "Font weight of Title"
+msgstr ""
+
+#: shortcodes/heading.php:153
+msgid "Title Text Transform"
+msgstr ""
+
+#: shortcodes/heading.php:155
+msgid "Text Transform of Title"
+msgstr ""
+
+#: shortcodes/heading.php:161
+msgid "Title Line Height"
+msgstr ""
+
+#: shortcodes/heading.php:163
+msgid "Line height of Title. Example: 30px or 1"
+msgstr ""
+
+#: shortcodes/heading.php:169
+msgid "Title Margin-bottom"
+msgstr ""
+
+#: shortcodes/heading.php:171
+msgid "Margin bottom of Title"
+msgstr ""
+
+#: shortcodes/heading.php:177
+msgid "Title Letter Spacing"
+msgstr ""
+
+#: shortcodes/heading.php:179
+msgid "Letter spacing of Title"
+msgstr ""
+
+#: shortcodes/heading.php:186
+msgid "Sub Title Color"
+msgstr ""
+
+#: shortcodes/heading.php:189
+msgid "Color for Sub Title"
+msgstr ""
+
+#: shortcodes/heading.php:195
+msgid " Sub Title Font Size"
+msgstr ""
+
+#: shortcodes/heading.php:202
+msgid "Sub Title Font Family"
+msgstr ""
+
+#: shortcodes/heading.php:205
+msgid "Font family of Sub Title"
+msgstr ""
+
+#: shortcodes/heading.php:221
+msgid "Sub Title Font Weight"
+msgstr ""
+
+#: shortcodes/heading.php:223
+msgid "Font weight of Sub Title"
+msgstr ""
+
+#: shortcodes/heading.php:229
+msgid "Sub Title Text Transform"
+msgstr ""
+
+#: shortcodes/heading.php:231
+msgid "Text Transform of Sub Title"
+msgstr ""
+
+#: shortcodes/heading.php:237
+msgid "Sub Title Line Height"
+msgstr ""
+
+#: shortcodes/heading.php:239
+msgid "Line height of Sub Title"
+msgstr ""
+
+#: shortcodes/heading.php:245
+msgid "Margin bottom"
+msgstr ""
+
+#: shortcodes/heading.php:247
+msgid "Margin bottom of Sub Title. Example: 30px"
+msgstr ""
+
+#: shortcodes/heading.php:254
+msgid "Description Color"
+msgstr ""
+
+#: shortcodes/heading.php:257
+msgid "Color for Description"
+msgstr ""
+
+#: shortcodes/heading.php:263
+msgid " Description Font Size"
+msgstr ""
+
+#: shortcodes/heading.php:265
+msgid "Custom font-size Description. Example: 30px"
+msgstr ""
+
+#: shortcodes/heading.php:270
+msgid "Description Font Family"
+msgstr ""
+
+#: shortcodes/heading.php:273
+msgid "Font family of Description"
+msgstr ""
+
+#: shortcodes/heading.php:289
+msgid "Description Font Weight"
+msgstr ""
+
+#: shortcodes/heading.php:291
+msgid "Font weight of Description"
+msgstr ""
+
+#: shortcodes/heading.php:297
+msgid "Description Text Transform"
+msgstr ""
+
+#: shortcodes/heading.php:299
+msgid "Text Transform of Description"
+msgstr ""
+
+#: shortcodes/heading.php:305
+msgid "Description Line Height"
+msgstr ""
+
+#: shortcodes/heading.php:307
+msgid "Line height of description"
+msgstr ""
+
+#: shortcodes/heading.php:313
+msgid "Margin top"
+msgstr ""
+
+#: shortcodes/heading.php:315
+msgid "Margin bottom of Description. Example: 30px"
+msgstr ""
+
+#: shortcodes/intravel_destination.php:27
+msgid "Tour Single Destination"
+msgstr ""
+
+#: shortcodes/intravel_destination.php:28
+msgid "A Destination of intravel"
+msgstr ""
+
+#: shortcodes/intravel_destination.php:35
+#: shortcodes/intravel_spotlight_destination.php:79
+#: shortcodes/intravel_tours.php:80
+msgid "Select Location"
+msgstr ""
+
+#: shortcodes/intravel_destination.php:41
+#: shortcodes/intravel_destinations.php:47 shortcodes/intravel_tour.php:29
+msgid "Image Width"
+msgstr ""
+
+#: shortcodes/intravel_destination.php:42
+#: shortcodes/intravel_destinations.php:48 shortcodes/intravel_tour.php:30
+msgid "Image Width in px"
+msgstr ""
+
+#: shortcodes/intravel_destination.php:48
+#: shortcodes/intravel_destinations.php:54 shortcodes/intravel_tour.php:36
+msgid "Image Height"
+msgstr ""
+
+#: shortcodes/intravel_destination.php:49
+#: shortcodes/intravel_destinations.php:55 shortcodes/intravel_tour.php:37
+msgid "Image Height in px"
+msgstr ""
+
+#: shortcodes/intravel_destination.php:68
+#: shortcodes/intravel_destinations.php:173
+#: shortcodes/intravel_discout_tours.php:101
+#: shortcodes/intravel_popular_tours.php:45
+#: shortcodes/intravel_search_tour_form.php:70
+#: shortcodes/intravel_search_tour_slider.php:61
+#: shortcodes/intravel_spotlight_destination.php:119
+#: shortcodes/intravel_tour.php:74 shortcodes/intravel_tours.php:170
+#: shortcodes/intravel_types.php:93
+msgid "Please active the plugin inTravel"
+msgstr ""
+
+#: shortcodes/intravel_destination.php:104
+#: shortcodes/intravel_destinations.php:317
+#: shortcodes/intravel_destinations.php:443
+#, php-format
+msgid "%d tour"
+msgid_plural "%d tours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: shortcodes/intravel_destination.php:110
+#: shortcodes/intravel_spotlight_destination.php:209
+msgid "Please select a destination"
+msgstr ""
+
+#: shortcodes/intravel_destinations.php:14
+msgid "Tour Destinations"
+msgstr ""
+
+#: shortcodes/intravel_destinations.php:15
+msgid "Destinations of intravel"
+msgstr ""
+
+#: shortcodes/intravel_destinations.php:61
+#: shortcodes/intravel_discout_tours.php:50
+#: shortcodes/intravel_popular_tours.php:26 shortcodes/intravel_tours.php:100
+#: shortcodes/intravel_types.php:22
+msgid "Limit"
+msgstr ""
+
+#: shortcodes/intravel_destinations.php:67 shortcodes/intravel_tours.php:106
+#: shortcodes/intravel_types.php:28
+msgid "Offset"
+msgstr ""
+
+#: shortcodes/intravel_destinations.php:73
+msgid "Parent ID"
+msgstr ""
+
+#: shortcodes/intravel_destinations.php:79
+msgid "Include Location IDs"
+msgstr ""
+
+#: shortcodes/intravel_destinations.php:85
+msgid "Exclude Location IDs"
+msgstr ""
+
+#: shortcodes/intravel_destinations.php:91 shortcodes/intravel_types.php:58
+msgid "Hide Empty"
+msgstr ""
+
+#: shortcodes/intravel_destinations.php:100
+#: shortcodes/intravel_discout_tours.php:68 shortcodes/intravel_tours.php:135
+#: shortcodes/intravel_types.php:67 shortcodes/posts.php:96
+msgid "Order By"
+msgstr ""
+
+#: shortcodes/intravel_destinations.php:113
+#: shortcodes/intravel_discout_tours.php:80 shortcodes/intravel_tours.php:148
+#: shortcodes/intravel_types.php:78
+msgid "Order Direction"
+msgstr ""
+
+#: shortcodes/intravel_destinations.php:131
+msgid "Items Desktop"
+msgstr ""
+
+#: shortcodes/intravel_destinations.php:139
+msgid "Items Desktop Small"
+msgstr ""
+
+#: shortcodes/intravel_destinations.php:147
+msgid "Pagination"
+msgstr ""
+
+#: shortcodes/intravel_destinations.php:158
+msgid "AutoPlay Slider"
+msgstr ""
+
+#: shortcodes/intravel_destinations.php:322
+msgid "Discover"
+msgstr ""
+
+#: shortcodes/intravel_destinations.php:372
+msgid "View all tours"
+msgstr ""
+
+#: shortcodes/intravel_destinations.php:393
+msgid "Enter your destination"
+msgstr ""
+
+#: shortcodes/intravel_destinations.php:397
+msgid "Order by"
+msgstr ""
+
+#: shortcodes/intravel_destinations.php:399
+msgid "Count"
+msgstr ""
+
+#: shortcodes/intravel_destinations.php:400
+msgid "Popular"
+msgstr ""
+
+#: shortcodes/intravel_destinations.php:401 shortcodes/testimonials.php:200
+msgid "Rating"
+msgstr ""
+
+#: shortcodes/intravel_destinations.php:406
+msgid "DESC"
+msgstr ""
+
+#: shortcodes/intravel_destinations.php:407
+msgid "ASC"
+msgstr ""
+
+#: shortcodes/intravel_destinations.php:410
+#: shortcodes/intravel_search_tour_form.php:197
+#: shortcodes/intravel_search_tour_form.php:252
+#: shortcodes/intravel_search_tour_slider.php:212
+msgid "Search"
+msgstr ""
+
+#: shortcodes/intravel_destinations.php:454
+#: shortcodes/intravel_spotlight_destination.php:266
+msgid "Discover "
+msgstr ""
+
+#: shortcodes/intravel_discout_tours.php:18
+msgid "Travel Discount Tours"
+msgstr ""
+
+#: shortcodes/intravel_discout_tours.php:56 shortcodes/intravel_tours.php:112
+msgid "Include Tour IDs"
+msgstr ""
+
+#: shortcodes/intravel_discout_tours.php:62 shortcodes/intravel_tours.php:118
+msgid "Exclude Tour IDs"
+msgstr ""
+
+#: shortcodes/intravel_discout_tours.php:250 shortcodes/intravel_tours.php:395
+#: shortcodes/intravel_tours.php:539 shortcodes/intravel_tours.php:628
+msgid "Book now"
+msgstr ""
+
+#: shortcodes/intravel_popular_tours.php:18
+msgid "Travel Popular Tours"
+msgstr ""
+
+#: shortcodes/intravel_search_tour_form.php:14
+msgid "Intravel Search Tour - Form"
+msgstr ""
+
+#: shortcodes/intravel_search_tour_form.php:19
+msgid "Search tour in Travel"
+msgstr ""
+
+#: shortcodes/intravel_search_tour_form.php:25 shortcodes/map.php:45
+#: shortcodes/posts.php:43
+msgid "Style"
+msgstr ""
+
+#: shortcodes/intravel_search_tour_form.php:42
+msgid "Title form"
+msgstr ""
+
+#: shortcodes/intravel_search_tour_form.php:112
+#: shortcodes/intravel_search_tour_slider.php:99
+msgid "Min price"
+msgstr ""
+
+#: shortcodes/intravel_search_tour_form.php:116
+#: shortcodes/intravel_search_tour_slider.php:103
+msgid "Max price"
+msgstr ""
+
+#: shortcodes/intravel_search_tour_form.php:119
+#: shortcodes/intravel_search_tour_slider.php:105
+msgid "Price:"
+msgstr ""
+
+#: shortcodes/intravel_search_tour_form.php:146
+#: shortcodes/intravel_search_tour_form.php:219
+#: shortcodes/intravel_search_tour_slider.php:179
+msgid "Enter tour name"
+msgstr ""
+
+#: shortcodes/intravel_search_tour_form.php:153
+msgid "Choose your destination"
+msgstr ""
+
+#: shortcodes/intravel_search_tour_form.php:171
+msgid "Choose your tour type"
+msgstr ""
+
+#: shortcodes/intravel_search_tour_form.php:185
+#: shortcodes/intravel_search_tour_form.php:244
+#: shortcodes/intravel_search_tour_slider.php:194
+msgid "Tour start date"
+msgstr ""
+
+#: shortcodes/intravel_search_tour_form.php:223
+#: shortcodes/intravel_search_tour_slider.php:201
+msgid "Destination"
+msgstr ""
+
+#: shortcodes/intravel_search_tour_form.php:234
+msgid "Choose tour type"
+msgstr ""
+
+#: shortcodes/intravel_search_tour_slider.php:14
+msgid "Info Search Tour in Slider"
+msgstr ""
+
+#: shortcodes/intravel_search_tour_slider.php:15
+msgid "Information for search tour in slider"
+msgstr ""
+
+#: shortcodes/intravel_search_tour_slider.php:20
+msgid "This is add-on search tour slider in Travel"
+msgstr ""
+
+#: shortcodes/intravel_search_tour_slider.php:122
+msgid "Tour Destination"
+msgstr ""
+
+#: shortcodes/intravel_search_tour_slider.php:137
+#: shortcodes/intravel_search_tour_slider.php:184
+msgid "Tour type"
+msgstr ""
+
+#: shortcodes/intravel_search_tour_slider.php:163
+msgid "Discover All Tours"
+msgstr ""
+
+#: shortcodes/intravel_spotlight_destination.php:40
+msgid "Tour Spotlight Destination"
+msgstr ""
+
+#: shortcodes/intravel_spotlight_destination.php:41
+msgid "Show a Destination with some tour types"
+msgstr ""
+
+#: shortcodes/intravel_spotlight_destination.php:87
+#: shortcodes/testimonials.php:208
+msgid "Video URL"
+msgstr ""
+
+#: shortcodes/intravel_spotlight_destination.php:94
+#: shortcodes/testimonials.php:215
+msgid "Poster image"
+msgstr ""
+
+#: shortcodes/intravel_spotlight_destination.php:100
+msgid "Select Tour types"
+msgstr ""
+
+#: shortcodes/intravel_tour.php:14
+msgid "InTravel Single Tour"
+msgstr ""
+
+#: shortcodes/intravel_tour.php:15
+msgid "A Tour of intravel"
+msgstr ""
+
+#: shortcodes/intravel_tour.php:22
+msgid "Tour ID"
+msgstr ""
+
+#: shortcodes/intravel_tour.php:23
+msgid "Enter Tour ID"
+msgstr ""
+
+#: shortcodes/intravel_tour.php:124
+msgid "Tour not publishing"
+msgstr ""
+
+#: shortcodes/intravel_tour.php:128
+msgid "Please select a tour"
+msgstr ""
+
+#: shortcodes/intravel_tours.php:24 shortcodes/posts.php:28
+msgid "All"
+msgstr ""
+
+#: shortcodes/intravel_tours.php:32
+msgid "Travel Tours"
+msgstr ""
+
+#: shortcodes/intravel_tours.php:86
+msgid "Title destination tour"
+msgstr ""
+
+#: shortcodes/intravel_tours.php:93
+msgid "Text for Booking tour"
+msgstr ""
+
+#: shortcodes/intravel_tours.php:124
+msgid "Function"
+msgstr ""
+
+#: shortcodes/intravel_tours.php:481
+msgid "All tours"
+msgstr ""
+
+#: shortcodes/intravel_types.php:14
+msgid "Tour Types"
+msgstr ""
+
+#: shortcodes/intravel_types.php:15
+msgid "Types of intravel"
+msgstr ""
+
+#: shortcodes/intravel_types.php:34
+msgid "Include Type IDs"
+msgstr ""
+
+#: shortcodes/intravel_types.php:40
+msgid "Exclude Type IDs"
+msgstr ""
+
+#: shortcodes/intravel_types.php:46
+msgid "External link"
+msgstr ""
+
+#: shortcodes/intravel_types.php:52
+msgid "External link text"
+msgstr ""
+
+#: shortcodes/item_info.php:14
+msgid "Item Info"
+msgstr ""
+
+#: shortcodes/item_info.php:15 shortcodes/member.php:15
+msgid "Add a item info"
+msgstr ""
+
+#: shortcodes/item_info.php:72
+msgid "Link"
+msgstr ""
+
+#: shortcodes/item_info.php:78
+msgid "Icon"
+msgstr ""
+
+#: shortcodes/item_info.php:84
+msgid "Icon Size"
+msgstr ""
+
+#: shortcodes/item_info.php:86
+msgid "Example: 30"
+msgstr ""
+
+#: shortcodes/map.php:38
+msgid "Display a Google Map"
+msgstr ""
+
+#: shortcodes/map.php:61
+msgid "Marker Icon"
+msgstr ""
+
+#: shortcodes/map.php:66
+msgid "Latitude"
+msgstr ""
+
+#: shortcodes/map.php:73
+msgid "Longitude"
+msgstr ""
+
+#: shortcodes/map.php:80
+msgid "Zoom"
+msgstr ""
+
+#: shortcodes/map.php:86
+msgid "Map height"
+msgstr ""
+
+#: shortcodes/map.php:89
+msgid "Example: 400(in px) or 100vh"
+msgstr ""
+
+#: shortcodes/map.php:93
+msgid "panBy x"
+msgstr ""
+
+#: shortcodes/map.php:96
+msgid ""
+"Changes the center of the map by the given distance in pixels.. Example: 50"
+msgstr ""
+
+#: shortcodes/map.php:100
+msgid "panBy y"
+msgstr ""
+
+#: shortcodes/map.php:103
+msgid ""
+"Changes the center of the map by the given distance in pixels. Example: 50"
+msgstr ""
+
+#: shortcodes/member.php:14
+msgid "Team Member"
+msgstr ""
+
+#: shortcodes/member.php:30 shortcodes/testimonials.php:179
+msgid "Position"
+msgstr ""
+
+#: shortcodes/member.php:48
+msgid "Socials"
+msgstr ""
+
+#: shortcodes/member.php:49
+msgid "Each row you can set fa-icon|link ex. fa-facebook|http://facebook.com"
+msgstr ""
+
+#: shortcodes/posts.php:34
+msgid "Posts"
+msgstr ""
+
+#: shortcodes/posts.php:35
+msgid "Display a list of posts "
+msgstr ""
+
+#: shortcodes/posts.php:74
+msgid "Post Ids"
+msgstr ""
+
+#: shortcodes/posts.php:77
+msgid "Id of posts you want to get. Separated by commas."
+msgstr ""
+
+#: shortcodes/posts.php:81
+msgid "Post Category"
+msgstr ""
+
+#: shortcodes/posts.php:84
+msgid "Category to get posts."
+msgstr ""
+
+#: shortcodes/posts.php:88
+msgid "Post number"
+msgstr ""
+
+#: shortcodes/posts.php:92
+msgid "Number of posts to display on box."
+msgstr ""
+
+#: shortcodes/posts.php:109
+msgid "Order Type"
+msgstr ""
+
+#: shortcodes/posts.php:118
+msgid "Show date"
+msgstr ""
+
+#: shortcodes/posts.php:127
+msgid "Show Category"
+msgstr ""
+
+#: shortcodes/posts.php:136
+msgid "Show read-more"
+msgstr ""
+
+#: shortcodes/posts.php:145
+msgid "Number word of title"
+msgstr ""
+
+#: shortcodes/posts.php:146
+msgid "Trim title word. Exp: 5"
+msgstr ""
+
+#: shortcodes/posts.php:153
+msgid "Number word of description"
+msgstr ""
+
+#: shortcodes/posts.php:154
+msgid "Trim description. Exp: 15"
+msgstr ""
+
+#: shortcodes/posts.php:255 shortcodes/posts.php:374
+msgid "Read more"
+msgstr ""
+
+#: shortcodes/posts.php:464
+msgid "Continue"
+msgstr ""
+
+#: shortcodes/testimonials.php:41
+msgid "Testimonials"
+msgstr ""
+
+#: shortcodes/testimonials.php:46
+msgid "Add a set of testimonial and give some custom style."
+msgstr ""
+
+#: shortcodes/testimonials.php:119
+msgid "Testimonial Item"
+msgstr ""
+
+#: shortcodes/testimonials.php:125
+msgid ""
+"Add a list of testimonials with some content and give some custom style."
+msgstr ""
+
+#: shortcodes/testimonials.php:171
+msgid "Address"
+msgstr ""
+
+#: shortcodes/testimonials.php:187
+msgid "Testimonial Content"
+msgstr ""
+
+#: shortcodes/testimonials.php:193
+msgid "Client Image"
+msgstr ""

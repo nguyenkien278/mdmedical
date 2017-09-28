@@ -1,0 +1,32 @@
+[15-Sep-2017 07:19:45 UTC] PHP Notice:  Trying to get property of non-object in D:\www\mdmedical\wp-content\themes\mdmedical\blocks\page-heading.php on line 11
+[15-Sep-2017 07:19:45 UTC] PHP Stack trace:
+[15-Sep-2017 07:19:45 UTC] PHP   1. {main}() D:\www\mdmedical\index.php:0
+[15-Sep-2017 07:19:45 UTC] PHP   2. require() D:\www\mdmedical\index.php:17
+[15-Sep-2017 07:19:45 UTC] PHP   3. require_once() D:\www\mdmedical\wp-blog-header.php:19
+[15-Sep-2017 07:19:45 UTC] PHP   4. include() D:\www\mdmedical\wp-includes\template-loader.php:74
+[15-Sep-2017 07:19:45 UTC] PHP   5. wc_get_template() D:\www\mdmedical\wp-content\plugins\woocommerce\templates\taxonomy-product_cat.php:22
+[15-Sep-2017 07:19:45 UTC] PHP   6. include() D:\www\mdmedical\wp-content\plugins\woocommerce\includes\wc-core-functions.php:205
+[15-Sep-2017 07:19:45 UTC] PHP   7. get_header() D:\www\mdmedical\wp-content\themes\mdmedical\woocommerce\archive-product.php:23
+[15-Sep-2017 07:19:45 UTC] PHP   8. locate_template() D:\www\mdmedical\wp-includes\general-template.php:45
+[15-Sep-2017 07:19:45 UTC] PHP   9. load_template() D:\www\mdmedical\wp-includes\template.php:647
+[15-Sep-2017 07:19:45 UTC] PHP  10. require_once() D:\www\mdmedical\wp-includes\template.php:688
+[15-Sep-2017 07:19:45 UTC] PHP  11. get_template_part() D:\www\mdmedical\wp-content\themes\mdmedical\header.php:45
+[15-Sep-2017 07:19:45 UTC] PHP  12. locate_template() D:\www\mdmedical\wp-includes\general-template.php:167
+[15-Sep-2017 07:19:45 UTC] PHP  13. load_template() D:\www\mdmedical\wp-includes\template.php:647
+[15-Sep-2017 07:19:45 UTC] PHP  14. require() D:\www\mdmedical\wp-includes\template.php:690
+[15-Sep-2017 07:19:45 UTC] PHP Notice:  Trying to get property of non-object in D:\www\mdmedical\wp-content\themes\mdmedical\blocks\page-heading.php on line 38
+[15-Sep-2017 07:19:45 UTC] PHP Stack trace:
+[15-Sep-2017 07:19:45 UTC] PHP   1. {main}() D:\www\mdmedical\index.php:0
+[15-Sep-2017 07:19:45 UTC] PHP   2. require() D:\www\mdmedical\index.php:17
+[15-Sep-2017 07:19:45 UTC] PHP   3. require_once() D:\www\mdmedical\wp-blog-header.php:19
+[15-Sep-2017 07:19:45 UTC] PHP   4. include() D:\www\mdmedical\wp-includes\template-loader.php:74
+[15-Sep-2017 07:19:45 UTC] PHP   5. wc_get_template() D:\www\mdmedical\wp-content\plugins\woocommerce\templates\taxonomy-product_cat.php:22
+[15-Sep-2017 07:19:45 UTC] PHP   6. include() D:\www\mdmedical\wp-content\plugins\woocommerce\includes\wc-core-functions.php:205
+[15-Sep-2017 07:19:45 UTC] PHP   7. get_header() D:\www\mdmedical\wp-content\themes\mdmedical\woocommerce\archive-product.php:23
+[15-Sep-2017 07:19:45 UTC] PHP   8. locate_template() D:\www\mdmedical\wp-includes\general-template.php:45
+[15-Sep-2017 07:19:45 UTC] PHP   9. load_template() D:\www\mdmedical\wp-includes\template.php:647
+[15-Sep-2017 07:19:45 UTC] PHP  10. require_once() D:\www\mdmedical\wp-includes\template.php:688
+[15-Sep-2017 07:19:45 UTC] PHP  11. get_template_part() D:\www\mdmedical\wp-content\themes\mdmedical\header.php:45
+[15-Sep-2017 07:19:45 UTC] PHP  12. locate_template() D:\www\mdmedical\wp-includes\general-template.php:167
+[15-Sep-2017 07:19:45 UTC] PHP  13. load_template() D:\www\mdmedical\wp-includes\template.php:647
+[15-Sep-2017 07:19:45 UTC] PHP  14. require() D:\www\mdmedical\wp-includes\template.php:690

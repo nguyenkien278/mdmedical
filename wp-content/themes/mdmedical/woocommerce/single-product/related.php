@@ -11,31 +11,40 @@ if (!defined('ABSPATH')) {
     exit; // Exit if accessed directly
 }
 
-global $product, $woocommerce_loop;
-
+global $product, $post;
 if (empty($product) || !$product->exists()) {
     return;
 }
 
-$related = wc_get_related_products($product->get_id(), $posts_per_page);
+	$terms = get_the_terms($product->get_id(), 'product_tag');
+	if (!empty($terms)){
+		$term_slug = array();
+		foreach($terms as $term){
+			$term_slug[] = $term->slug;
+		}
+		
+		$tax_query = array(
+			array(
+				'taxonomy' => 'product_tag',
+				'field' => 'slug',
+				'terms' => $term_slug,
+			)
+		);
+	}
+	else {
+		return;
+	}
+	
+	$args = array(
+		'post_type' => 'product',
+		'orderby' => $orderby,
+		'post__not_in' => array($product->get_id()),
+		'tax_query' => $tax_query
+	);
 
-if (sizeof($related) == 0) return;
+	$products = new WP_Query($args);
 
-$args = apply_filters('woocommerce_related_products_args', array(
-    'post_type' => 'product',
-    'ignore_sticky_posts' => 1,
-    'no_found_rows' => 1,
-    'posts_per_page' => $posts_per_page,
-    'orderby' => $orderby,
-    'post__in' => $related,
-    'post__not_in' => array($product->get_id())
-));
-
-$products = new WP_Query($args);
-
-$woocommerce_loop['columns'] = $columns;
-
-if ($products->have_posts()) : 
+	if ($products->have_posts()) : 
 	
 		wp_enqueue_style('owl-carousel');
 		wp_enqueue_style('owl-theme');
@@ -55,7 +64,6 @@ if ($products->have_posts()) :
 		$sliderConfig .= ',"addClassActive":true';
 		$sliderConfig .= ',"navigationText":["<i class=\"ion-ios-arrow-left\"></i>","<i class=\"ion-ios-arrow-right\"></i>"]';
 		$sliderConfig .= '}';
-	
 ?>
 
     <div class="product-related">

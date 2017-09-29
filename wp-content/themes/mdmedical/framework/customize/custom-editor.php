@@ -83,7 +83,18 @@ add_filter( 'mce_buttons_2', 'ratb_tiny_mce_buttons_2_rearrange', 5 );
 
 
 
+function remove_update_notifications($value){
 
+    if ( isset($value ) && is_object( $value )){
+        unset($value->response['watu/watu.php']);
+        unset($value->response['js_composer/js_composer.php']);
+        unset($value->response['woocommerce-product-tabs/woocommerce-product-tabs.php']);
+        unset($value->response['contact-form-7/contact-form-7.php']);
+    }
+
+    return $value;
+}
+add_filter( 'site_transient_update_plugins', 'remove_update_notifications' );
 
 
 

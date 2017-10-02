@@ -143,11 +143,11 @@ if($inwave_theme_option['header-top-desc-3']){
 								<?php } ?>
 								<?php if($header_hotline_1 || $header_hotline_1){  ?>
 									<li class="header-hotline">
-										<?php if($header_hotline_2){  ?>
-											<span class="hotline-number"><?php echo $header_hotline_1; ?></span>
+										<?php if($header_hotline_1){  ?>
+											<span class="hotline-number"><a href="tel:<?php echo $header_hotline_1; ?>"><?php echo $header_hotline_1; ?></a></span>
 										<?php } ?>
 										<?php if($header_hotline_2){  ?>
-											<span class="sperator"> - </span><span class="hotline-number"><?php echo $header_hotline_2; ?></span>
+											<span class="sperator"> - </span><span class="hotline-number"><a href="tel:<?php echo $header_hotline_2; ?>"><?php echo $header_hotline_2; ?></a></span>
 										<?php } ?>
 									</li>
 								<?php } ?>

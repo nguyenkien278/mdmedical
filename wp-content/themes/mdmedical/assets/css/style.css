@@ -148,7 +148,10 @@ button{
 #menu-main-menu{
 	margin-right:-10px;
 }
-
+.header-midder {
+    position: relative;
+    z-index: 1111;
+}
 
 /*---------- end Canvas Menu Responsive ----------*/
 

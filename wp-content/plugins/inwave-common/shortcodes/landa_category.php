@@ -25,16 +25,12 @@ if (!class_exists('Inwave_LanDa_Category')) {
         protected $name = 'inwave_landa_category';
 
         function getLandaCategories() {
+			// global $post;
             $args = array("taxonomy"=>"lan_da_categories");
-            // $_categories = get_categories($args);
-		
-			$_categories = get_terms(array(
-				'taxonomy' => 'lan_da_categories',
-				'hide_empty' => false,
-			));
-			var_dump($_categories);
-			
-			// echo '<style>#adminmenumain{display:none!important;}</style>';
+            // $_categories = get_categories($args);=
+			global $wpdb;
+			$_categories = $wpdb->get_results('SELECT name,slug FROM '.$wpdb->prefix.'terms INNER JOIN '.$wpdb->prefix.'term_taxonomy ON 
+											'.$wpdb->prefix.'terms.term_id='.$wpdb->prefix.'term_taxonomy.term_taxonomy_id WHERE '.$wpdb->prefix.'term_taxonomy.taxonomy="lan_da_categories" AND '.$wpdb->prefix.'term_taxonomy.count!="0"');
             $cats = array();
             $cats[__("Tất cả", "inwavethemes")] = '0';
             foreach ($_categories as $cat) {

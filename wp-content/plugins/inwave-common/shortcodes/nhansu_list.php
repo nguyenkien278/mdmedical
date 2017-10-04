@@ -142,7 +142,7 @@ if (!class_exists('Inwave_Nhansu_List')) {
 								$paginate_links = paginate_links(array(
 									'format'			=> '?paged=%#%',
 									'type'				=>'plain',
-									'prev_next' 		=> true,
+									'prev_next' 		=> false,
 									'current' 			=> max(1, get_query_var('paged')),
 									'show_all'			=>false,
 									'prev_text'         => __('Previous'),

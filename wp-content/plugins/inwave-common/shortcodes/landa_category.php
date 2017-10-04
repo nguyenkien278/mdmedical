@@ -25,9 +25,14 @@ if (!class_exists('Inwave_LanDa_Category')) {
         protected $name = 'inwave_landa_category';
 
         function getLandaCategories() {
-            $args = array("taxonomy"=>'lan_da_categories');
-            $_categories = get_categories($args);
-			// var_dump($_categories);
+            $args = array("taxonomy"=>"lan_da_categories");
+            // $_categories = get_categories($args);
+		
+			$_categories = get_terms(array(
+				'taxonomy' => 'lan_da_categories',
+				'hide_empty' => false,
+			));
+			var_dump($_categories);
 			
 			// echo '<style>#adminmenumain{display:none!important;}</style>';
             $cats = array();
@@ -208,7 +213,7 @@ if (!class_exists('Inwave_LanDa_Category')) {
 								$paginate_links = paginate_links(array(
 									'format'			=> '?paged=%#%',
 									'type'				=>'plain',
-									'prev_next' 		=> true,
+									'prev_next' 		=> false,
 									'current' 			=> max(1, get_query_var('paged')),
 									'show_all'			=>false,
 									'prev_text'         => __('Previous'),

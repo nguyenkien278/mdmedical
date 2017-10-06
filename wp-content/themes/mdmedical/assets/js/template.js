@@ -323,6 +323,19 @@
 		topSearchEffect();
 		addMenuWidth();
 		
+		$('.datepicker').datetimepicker({
+			yearStart: 2017,
+			timepicker:false,
+			format:'d/m/Y',
+			formatDate:'d/m/Y',
+			minDate: new Date(),
+		});
+		$('.timepicker').datetimepicker({
+			datepicker:false,
+			allowTimes:['9:00','10:00','11:00','12:00','13:00','14:00','15:00','16:00','17:00','18:00','19:00','20:00',],
+			format:	'H:i',
+			formatTime:	'H:i',
+		});
 		
 		$('p:empty').remove();
 		

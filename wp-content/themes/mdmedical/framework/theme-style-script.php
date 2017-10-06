@@ -61,6 +61,7 @@ if( !function_exists( 'inwave_scripts' ) ) {
         wp_enqueue_style('font-awesome', get_template_directory_uri() . '/assets/fonts/font-awesome/font-awesome.min.css', array(), $theme_info->get('Version'));
         wp_enqueue_style('font-ionicons', get_template_directory_uri() . '/assets/fonts/ionicons/ionicons.min.css', array(), $theme_info->get('Version'));
         wp_enqueue_style($template.'-fonts', inwave_fonts_url(), array(), $theme_info->get('Version'));
+		wp_enqueue_style('jquery.datetimepicker-css', get_template_directory_uri() . '/assets/css/jquery.datetimepicker.min.css', array(), $theme_info->get('Version'));
         wp_register_style('custombox', get_template_directory_uri() . '/assets/css/custombox.min.css', array(), $theme_info->get('Version'));
         wp_enqueue_style('rating', get_template_directory_uri() . '/assets/css/rating.css', array(), $theme_info->get('Version'));
         wp_register_style('barrating-fontawesome-stars', get_template_directory_uri() . '/assets/css/fontawesome-stars.css', array(), $theme_info->get('Version'));
@@ -68,6 +69,7 @@ if( !function_exists( 'inwave_scripts' ) ) {
 
         // wp_register_style('flex-slider', get_template_directory_uri() . '/assets/css/flexslider.css', array(), $theme_info->get('Version'));
 
+        
         wp_register_style('owl-carousel', get_template_directory_uri() . '/assets/css/owl.carousel.css', array(), $theme_info->get('Version'));
         wp_register_style('owl-theme', get_template_directory_uri() . '/assets/css/owl.theme.css', array(), $theme_info->get('Version'));
         wp_register_style('owl-transitions', get_template_directory_uri() . '/assets/css/owl.transitions.css', array(), $theme_info->get('Version'));
@@ -104,6 +106,7 @@ if( !function_exists( 'inwave_scripts' ) ) {
         }
 		
 		wp_enqueue_script('jquery.fancybox-js', get_template_directory_uri() . '/assets/fancybox/jquery.fancybox.js', array(), $theme_info->get('Version'));
+        wp_enqueue_script('jquery.datetimepicker', get_template_directory_uri() . '/assets/js/jquery.datetimepicker.full.min.js', array(), $theme_info->get('Version'), true);
         wp_enqueue_script('select2', get_template_directory_uri() . '/assets/js/select2.full.js', array(), $theme_info->get('Version'), true);
         wp_enqueue_script('jquery-fitvids', get_template_directory_uri() . '/assets/js/jquery.fitvids.js', array(), $theme_info->get('Version'), true);
         wp_register_script('owl-carousel', get_template_directory_uri() . '/assets/js/owl.carousel.min.js', array(), $theme_info->get('Version'), true);

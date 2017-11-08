@@ -1,0 +1,43 @@
+/*
+Theme Package: inevent
+Theme URI: http://inwavethemes.com/wordpress/inevent
+Author: inwavethemes
+Author URI: http://inwavethemes.com
+Description: main color.
+*/
+
+/*-------------------------------------------------------
+COLOR DEFINITION
+--------------------------------------------------------*/
+
+/** Default */
+a{
+    color: #13a1c5;
+}
+.theme-color{
+    color: #13a1c5!important;
+}
+.theme-color-force{
+    color: #13a1c5!important;
+}
+.theme-color-hover:hover{
+    color: #13a1c5!important;
+}
+.theme-bg-color{
+    background-color:#13a1c5!important;
+}
+.theme-bg{
+    background: none repeat scroll 0 0 #13a1c5!important;
+}
+.theme-bg-hover:hover{
+    background: none repeat scroll 0 0 #13a1c5 !important;
+}
+.theme-border-color{
+    border-color: #13a1c5!important;
+}
+
+/** panel settings */
+.panel-tools .button-command.active,.reset-button button{
+	border-color: #13a1c5;
+	background-color:#13a1c5;
+}

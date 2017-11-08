@@ -90,13 +90,13 @@ if (!class_exists('Inwave_Product_Slide')) {
                     ),
                     array(
                         "type" => "textfield",
-                        "heading" => __("Include Tour IDs", "inwavethemes"),
+                        "heading" => __("Include Product IDs", "inwavethemes"),
                         "param_name" => "include_ids",
                         "value" => '',
                     ),
                     array(
                         "type" => "textfield",
-                        "heading" => __("Exclude Tour IDs", "inwavethemes"),
+                        "heading" => __("Exclude Product IDs", "inwavethemes"),
                         "param_name" => "exclude_ids",
                         "value" => '',
                     ),

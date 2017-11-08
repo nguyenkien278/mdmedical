@@ -190,19 +190,42 @@
 .product-list .product-row-item:nth-child(2n) .arrow-view{
 	left:calc(50% - 15px);
 }
+.iw-post-filter .post-item .image img {
+    width: 100%;
+}
 
-
+.iw-post-filter.post-filter {
+    padding: 0 20;
+}
 
 }
 
+@media (max-width:640px){
+.blog-listing .post-content {
+    margin: 15px 0 0 0;
+}
+.blog-listing .featured-image {
+    width: auto;
+	float:none;
+}
+.blog-listing .featured-image img {
+    width: 100%;
+}
+.comments-tab .share-box-detail{
+	float:none!important;
+	display:table;
+}
 
+}
 
 
 @media (max-width:479px){
 .top-search{
 	max-width:220px;
 }
-
+.iw-post-filter.post-filter {
+    padding: 0;
+}
 
 
 

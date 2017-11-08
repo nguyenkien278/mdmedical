@@ -29,8 +29,14 @@ if (!class_exists('Inwave_LanDa_Category')) {
             $args = array("taxonomy"=>"lan_da_categories");
             // $_categories = get_categories($args);=
 			global $wpdb;
-			$_categories = $wpdb->get_results('SELECT name,slug FROM '.$wpdb->prefix.'terms INNER JOIN '.$wpdb->prefix.'term_taxonomy ON 
-											'.$wpdb->prefix.'terms.term_id='.$wpdb->prefix.'term_taxonomy.term_taxonomy_id WHERE '.$wpdb->prefix.'term_taxonomy.taxonomy="lan_da_categories" AND '.$wpdb->prefix.'term_taxonomy.count!="0"');
+			$_categories = $wpdb->get_results('	SELECT name,slug 
+												FROM '.$wpdb->prefix.'terms 
+												INNER JOIN '.$wpdb->prefix.'term_taxonomy 
+												ON '.$wpdb->prefix.'terms.term_id='.$wpdb->prefix.'term_taxonomy.term_taxonomy_id 
+												WHERE '.$wpdb->prefix.'term_taxonomy.taxonomy="lan_da_categories" 
+												AND '.$wpdb->prefix.'term_taxonomy.count!="0" 
+												AND '.$wpdb->prefix.'term_taxonomy.parent<"1"
+											');
             $cats = array();
             $cats[__("Tất cả", "inwavethemes")] = '0';
             foreach ($_categories as $cat) {
@@ -109,8 +115,8 @@ if (!class_exists('Inwave_LanDa_Category')) {
 
             $args = array();
 
-			$args['posts_per_page'] = $post_number;
-			// $args['posts_per_page'] = 3;
+			// $args['posts_per_page'] = $post_number;
+			$args['posts_per_page'] = '-1';
             $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
             $args['paged'] = $paged;
             $args['post_type'] = 'lan_da';
@@ -132,9 +138,11 @@ if (!class_exists('Inwave_LanDa_Category')) {
                    
                     $gallery = $this->getLandaCategories();
                     if (in_array('0', $gallery)) {
-                        $categories = get_terms('lan_da_categories', 'hide_empty=1');
+                        $categories = get_terms('lan_da_categories', 'hide_empty=1', 'parent=0');
+						$categories = get_terms(array( 'taxonomy' => 'lan_da_categories', 'parent' => 0,'hide_empty'=>'1'));
                     } else {
-                        $categories = get_terms('lan_da_categories', array('hide_empty'=>'1', 'include'=>$gallery));
+                        $categories = get_terms(array( 'taxonomy' => 'lan_da_categories', 'parent' => 0,'hide_empty'=>'1', 'include'=>$gallery ));
+						// get_terms('lan_da_categories', array('hide_empty'=>'1', 'include'=>$gallery, 'parent' => 0));
                     }
                     ?>
 
@@ -177,7 +185,7 @@ if (!class_exists('Inwave_LanDa_Category')) {
                                                     <div class="image">
                                                         <?php
                                                         $img = wp_get_attachment_image_src(get_post_thumbnail_id(get_the_ID()), 'full');
-														$img_thum = inwave_resize($img[0], 300, 200);
+														$img_thum = inwave_resize($img[0], 300, 200, true);
 														if ($img){
                                                         ?>
                                                         <img class="" src="<?php echo $img_thum; ?>" alt="" />

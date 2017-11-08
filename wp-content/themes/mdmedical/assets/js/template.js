@@ -313,6 +313,25 @@
    /*** RUN ALL FUNCTION */
 	/*doc ready*/
     $(document).ready(function () {
+		
+		
+		
+		
+		var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+		
+		var emailArr = "duclinh123@gmail.com; duclinh234@gmail.com, linh@gmail.com";
+		var splitted = emailArr.replace(" ", "");
+		var splitted = splitted.split(/(?:,|;)+/);
+		
+		for (var i = 0; i < splitted.length; i++){
+			var emailValidate = regex.test(splitted[i]);
+			console.log(emailValidate);
+			console.log(splitted[i]);
+		}
+		console.log(splitted);
+		console.log(splitted.length);
+		
+		
 		add_class_sub_menu();
         woocommerce_init();
         parallax_init();
@@ -437,6 +456,9 @@
         parallax_init();
 
 	});
+	
+	
+	
 	
 	
 	

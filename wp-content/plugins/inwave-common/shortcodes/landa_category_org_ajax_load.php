@@ -175,7 +175,7 @@ if (!class_exists('Inwave_LanDa_Category')) {
                                                     <div class="image">
                                                         <?php
                                                         $img = wp_get_attachment_image_src(get_post_thumbnail_id(get_the_ID()), 'full');
-														$img_thum = inwave_resize($img[0], 300, 200);
+														$img_thum = inwave_resize($img[0], 300, 200, true);
 														if ($img){
                                                         ?>
                                                         <img class="" src="<?php echo $img_thum; ?>" alt="" />

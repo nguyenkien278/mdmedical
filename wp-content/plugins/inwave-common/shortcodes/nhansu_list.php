@@ -111,7 +111,7 @@ if (!class_exists('Inwave_Nhansu_List')) {
 														$img_thum = inwave_resize($img[0], 400, 400, true);
 														if ($img){
                                                         ?>
-                                                        <img class="" src="<?php echo $img_thum; ?>" alt="" />
+                                                        <a href="<?php the_permalink(); ?>"><img class="" src="<?php echo $img_thum; ?>" alt="" /></a>
 														<?php 
 														}
 														?>

@@ -38,7 +38,7 @@
 			'query_var' => true,
 			'show_admin_column' => true,
 			'rewrite' => array(
-				'slug' => 'giaiphap_cats',
+				'slug' => 'giaiphaps',
 				'with_front' => false
 			)
 		)

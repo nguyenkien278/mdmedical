@@ -78,7 +78,7 @@ button{
 	position: fixed;
 	top: 0;
 	right: 0;
-	z-index: 100;
+	z-index: 9999;
 	width: 260px;
 	height: 100%;
 	display: block;
@@ -2069,7 +2069,7 @@ ul.iw-nav-menu li.has-slide-product li.menu-item-type-yawp_wim{
 
 .page-heading.giaiphap_special .container-inner{
 	height:330px;
-	background-image:url(../images/bg-giaiphap-1.jpg);
+	background-image:url(../images/bg-giaiphap-1.jpg)!important;
 }
 .page-heading.giaiphap_special .page-title h1{
 	font-size:30px;
@@ -2241,6 +2241,7 @@ ul.wpb_image_grid_ul li.isotope-item{
 }
 .product_slide.style2{
 	background:none;
+	text-align:center;
 }
 .product_slide.style2 .product-slide-inner{
 	padding:0;
